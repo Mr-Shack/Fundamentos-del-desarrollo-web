@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet"');
 
 *{
-    font-family: "PT Serif", serif;
+    font-family: "Lato", sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -20,7 +20,7 @@ div h1{
 }
 
 div h1{
-    color: darksalmon;
+    color: goldenrod;
 }
 
 .title{
@@ -39,7 +39,7 @@ div h1{
 }
 
 .modal{
-    background-color: black;
+    background-color: green;
     width: 20rem;
     margin: 3rem;
     padding: 1rem;
@@ -53,7 +53,7 @@ div h1{
 
 .modal button{
     color: white;
-    background-color: crimson;
+    background-color: yellow;
     padding: 0.5rem 0.8rem;
     border: none;
     border-radius: 100%;
@@ -71,7 +71,7 @@ div h1{
 }
 
 .box{
-    background-color: crimson;
+    background-color: peru;
     color: white;
     width: 10rem;
     display: flex;
@@ -81,7 +81,7 @@ div h1{
 }
 
 .box:nth-child(3){
-    background-color: cornflowerblue;
+    background-color: royalblue;
     position: sticky;
     top: 0;
 }
