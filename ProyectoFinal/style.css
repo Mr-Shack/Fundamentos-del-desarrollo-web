@@ -1,0 +1,66 @@
+@import url('"https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+header{
+    background-color: #eea2d1;
+    padding: 1rem 2.5rem;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.search-form{
+    display: flex;
+    gap: 0.5rem;
+    width: 35%;
+}
+
+.search-form input{
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 100vw;
+    flex-grow: 1;
+}
+
+.search-form input::placeholder{
+    font-style: italic;
+}
+
+.search-form input:focus{
+    outline: none;
+}
+
+.search-form button{
+    border: none;
+    background-color: #000;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 100vw;
+    transition: 200ms;
+}
+
+.search-form button:hover{
+    background-color: #fff;
+    color: #000;
+}
+.logo-container{
+    width: 11rem;
+}
+
+.logo-container img{
+    width: 90%;
+    border-radius: 0%;
+}
