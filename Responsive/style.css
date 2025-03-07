@@ -139,7 +139,6 @@ footer{
     flex-direction: column;
     gap: 1rem;
 }
-
 .card-info-container button{
     border: none;
     background-color: #fff;
